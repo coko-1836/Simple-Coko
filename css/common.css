@@ -1,0 +1,201 @@
+/*タグ単位かよくつかうクラスだけ*/
+* {
+    font-family: "lato","Noto Sans JP";
+    letter-spacing: 0.05em;
+    box-sizing: border-box;
+  }
+  .comment{
+    color:#ddd;
+  }
+  small {
+    font-size: 0.8em;
+  }
+  img{
+    width: 100%;
+  }
+  .red {
+    color: red;
+  }
+  button {
+    cursor: pointer;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  main,
+  footer {
+    margin: 2em 0;
+  }
+  header {
+    margin: 2em;
+  }
+  main {
+    padding: 2em;
+  }
+  article {
+    padding: 1.5em 3em;
+  }
+  article div{
+    margin:2em 0;
+  }
+  iframe {
+    max-width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .page-top {
+    padding: 0.2em;
+    padding-right: 0.5em;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  header a:hover {
+    text-decoration: none;
+  }
+  /*menu*/
+  nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+  }
+  nav li a{
+    padding: 0.5em 2em;
+    width: 100%;
+    display: block;
+  }
+  nav li{
+    
+    width: 20%;
+    text-align: center;
+    border-right: 2px solid #ddd;
+  }
+  nav li:last-child{
+    border-style: none;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    header,
+    article,
+    footer {
+      background-color: #fff;
+    }
+    header a {
+      color: #000 !important;
+    }
+    a {
+      color: #1558d6;
+    }
+    a:visited {
+      color: purple;
+    }
+    main {
+      background-color: #f5f5f5;
+    }
+    body {
+      background-color: #fff;
+    }
+    h2,h2 a,h2 a:visited{
+      background-color: #333;
+      color: #fff;
+    }
+    h3,h4,h5,h6{
+      color: #000;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    * {
+      color: #fff;
+    }
+    header,
+    article,
+    footer,
+    body {
+      background-color: #333;
+    }
+    header a {
+      color: #fff !important;
+    }
+    a {
+      color: #99ccff;
+    }
+    a:visited {
+      color: #3399ff;
+    }
+    article {
+      background-color: #333;
+    }
+    main {
+      background-color: #222;
+    }
+    textarea,
+    input {
+      background-color: rgb(48, 48, 48);
+    }
+    textarea::placeholder,
+    input::placeholder {
+      color: #f5f5f5;
+    }
+    /* IE */
+    textarea:-ms-input-placeholder,
+    input:-ms-input-placeholder {
+      color: #f5f5f5;
+    }
+    /* Edge */
+    textarea:-ms-input-placeholder,
+    input::-ms-input-placeholder {
+      color: #f5f5f5;
+    }
+    h2{
+      background-color: #333;
+      color: #fff;
+      border: 1px solid #f5f5f5;
+    }
+    h3,h4,h5,h6{
+      color: #fff;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  @media screen and (max-width:480px) {
+    
+  }   
+  @media screen and (min-width:481px) and (max-width:768px) {
+    
+  }
+  @media screen and (min-width:769px) and (max-width:1200px) {
+    nav{
+      display: none;
+    }
+  }
+  /* table{
+      border-collapse: collapse;
+      white-space: nowrap;
+      text-align: center;
+  }
+  th{
+      background-color: #ddd;
+  }
+  th,td{
+      padding:0.2em 1em;
+      border: solid 1px #333
+  }
+  .title{
+      color:#000;
+      text-decoration: none;
+  } */
+  
